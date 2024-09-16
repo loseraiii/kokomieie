@@ -1,0 +1,129 @@
+
+<html>
+<head>
+  <title>Sangonomiya Kokomi</title>
+  <style>
+
+  body {margin:50px; 
+      padding:0; 
+      box-sizing: border-box;
+	  overflow: hidden;
+          }
+
+ .fade-in {
+            opacity: 0; 
+            animation: fadeIn 2s ease-out forwards; 
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0; 
+            }
+            to {
+                opacity: 1; 
+            }
+        }
+		
+		.full-background {
+            position: fixed;
+			top: 0; left: 0;
+            height: 100vh; 
+            width: 100vw; 
+            background-image: url('../../Downloads/bg.png');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+			z-index: -1; <!-- Ensures background is behind other content  -->
+        }  				
+						
+        .container {
+            position: relative;
+            display: flex;
+            align-items: flex-start; 
+            gap: 10px;
+			padding: 40px;
+			border-top:6px dotted #EFEEF7;
+            border-right: 10px double #7169b3;
+            border-left: 10px double #7169b3;
+            border-bottom:6px dotted #EFEEF7;
+			box-sizing: border-box;
+          			
+        }
+
+        .container img.main-image {
+            width: 450px; 
+            height: auto;
+        }
+		
+		.container .top-right-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 180px; 
+            height: auto;
+			border-radius: 50%;
+			border: 4px solid #fff;
+            margin: 30px; }
+		
+
+        .text {
+        color: #25254C;
+        font-size: 70px; 
+        margin: 0;
+        font-family: 'Kristen ITC', sans-serif; 
+                        text-shadow: 2px 2px 0 #fff,
+                        -2px -2px 0 #fff,
+                        2px -2px 0 #fff,
+                        -2px 2px 0 #fff;
+                        0 0 8px #fff,
+                        0 0 12px rgba(0,0,0,0.5)
+                        }
+                        
+        .subtext{
+         color: #f2f0ff;
+         font-size: 50px;
+         margin: 0;
+         font-family: 'Baskerville Old Face', sans-serif; }   
+
+		.styled-text {
+		font-size: 26px; 
+		color: #5f5bb3;
+		font-family:'Sitka Banner', sans-serif;
+		background-color: rgba(193, 212, 233, 0.6);
+		padding: 10px;
+		width: 690px;
+		border-radius: 10px; }
+		
+		.description {
+		font-size: 25px; 
+		color: #25254C;
+		font-family:'Sitka Banner', sans-serif;
+		background-color: rgb(144, 141, 202, 0.6);
+		padding: 10px;
+		width: 700px;
+		border-radius: 10px; }
+		
+		   
+  </style>
+</head>
+<body>
+<div class="fade-in">
+    <div class="full-background"></div>
+    <div class="container">
+
+    <img src="../../Downloads/kokomi.png" class="main-image">
+    <div>
+      <p class="text">Divine Priestess</p>
+      <p class="subtext">‎ ‎ ‎ ‎‎‎‎ ‎‎  ‎‎ ‎ ‎‎ ‎ ‎‎ ‎ ‎‎  of Watatsumi Island</p>
+	 <i> <p class="styled-text">The Divine Priestess of Watatsumi Island. All of the island's affairs <BR>
+	                            are at this young lady's fingertips.</p></i>
+	 <p class="description">Sangonomiya Kokomi(Japanese: 珊さん瑚ご宮のみや心ここ海み ) is a playable Hydro character in Genshin Impact.
+                            The young Divine Priestess of Watatsumi Island and a descendant of the Sangonomiya Clan, Kokomi is in charge of most of Watatsumi's affairs, shouldering heavy responsibilities alone in hopes for giving Watatsumi Island's people the hopes and happiness that they desire.</p>
+
+    </div>
+  <img src="../../Downloads/kokomii.jpg" class="top-right-image"/>
+  </div>
+  
+</body>
+</html>
